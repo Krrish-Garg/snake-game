@@ -43,6 +43,6 @@ To run the game locally, follow these steps:
 5. **Run the Game:**
    Execute the Python script to start the game:
    ```bash
-   python snake_game.py
+   python snake.py
 
 
