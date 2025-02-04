@@ -21,3 +21,28 @@ This Snake Game includes the following features:
 4. **Avoid Collisions**: Make sure the snake does not collide with the walls or itself. The game ends if a collision occurs.
 5. **High Score**: The game tracks the highest score achieved.
 
+## Installation
+
+To run the game locally, follow these steps:
+
+1. **Clone the Repository:**
+   Open your terminal and clone the repository using the following command:
+   ```bash
+   git clone https://github.com/Krrish-Garg/snake-game.git
+
+2. **Navigate to the Project Directory:**
+   Change to the project directory:
+   ```bash
+   cd snake-game
+
+4. ***Install Dependencies:***
+   Ensure you have Python installed on your system. If not, download and install Python from python.org. Next, install the required Pygame library using pip:
+   ```bash
+   pip install pygame
+
+5. **Run the Game:**
+   Execute the Python script to start the game:
+   ```bash
+   python snake_game.py
+
+
