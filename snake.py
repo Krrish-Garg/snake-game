@@ -63,8 +63,8 @@ def gameloop():
     with open("highscore.txt", "r") as f:
         highscore = f.read()
 
-    food_x = random.randint(100, 700)  # Adjusted range for food_x
-    food_y = random.randint(100, 500)  # Adjusted range for food_y
+    food_x = random.randint(100, 700)
+    food_y = random.randint(100, 500)
     velocity_y = 0
     snake_size = 10
     fps = 30
@@ -114,8 +114,8 @@ def gameloop():
 
             if abs(snake_x - food_x) < 6 and abs(snake_y - food_y) < 6:
                 score += 10
-                food_x = random.randint(100, 700)  # Adjusted range for food_x
-                food_y = random.randint(100, 500)  # Adjusted range for food_y
+                food_x = random.randint(100, 700)
+                food_y = random.randint(100, 500)
                 snk_length += 3
                 beep_sound.play()
                 if score > int(highscore):
