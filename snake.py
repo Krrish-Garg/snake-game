@@ -35,6 +35,7 @@ def welcome():
         gameWindow.fill((200, 240, 250))
         text_screen("Welcome to Snake Game", black, 190, 210)
         text_screen("Press Space bar to Play", black, 205, 250)
+        text_screen("Made by Krrish Garg",black,400,500)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 exit_game = True
